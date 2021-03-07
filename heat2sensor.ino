@@ -6,8 +6,8 @@
 
 float Temp1,Temp2,Temp3;
 void handle_OnConnect();
-char* ssid="BOBKUMHARI";
-char* pass="Utechlab@123#";
+char* ssid="#########";   //add your ssid and pass
+char* pass="#########";   //add your ssid and pass
 ESP8266WebServer server;
 
 //Temperature Sensor1
@@ -74,7 +74,7 @@ String SendHTML(float temp1,float temp2)
   ptr +="<html>\n";
   ptr +="<head>\n";
   ptr +="<meta charset=\"utf-8\">\n";
-  ptr +="<title>ULtra-tech Laboratories Pvt.Ltd.</title>\n";
+  ptr +="<title>Laboratories Pvt.Ltd.</title>\n";
   ptr +="\t<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>\n";
   ptr +="<style type=\"text/css\">\n";
   ptr +="#main {\n";
